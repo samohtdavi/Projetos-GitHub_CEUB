@@ -1,13 +1,13 @@
-# 🔐 Sistema de Segurança Cibernética
+# Sistema de Segurança Cibernética
 
 ### Controle de Acesso, Proteção de Dados e Filtro Inteligente
 
-📚 Projeto acadêmico desenvolvido para a disciplina de **Introdução à Computação**
-🎓 Curso: Engenharia da Computação
+ Projeto acadêmico desenvolvido para a disciplina de **Introdução à Computação**
+ Curso: Engenharia da Computação
 
 ---
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto propõe uma solução de **segurança digital em duas camadas**, voltada principalmente para pequenas empresas e ambientes familiares, com foco em:
 
@@ -20,7 +20,7 @@ A solução integra tecnologias modernas como **computação em nuvem, autentica
 
 ---
 
-## 🎯 Problema
+##  Problema
 
 Muitas pequenas empresas e usuários domésticos não possuem sistemas robustos de segurança, o que resulta em:
 
@@ -31,18 +31,18 @@ Muitas pequenas empresas e usuários domésticos não possuem sistemas robustos 
 
 ---
 
-## 💡 Solução Proposta
+##  Solução Proposta
 
 O sistema implementa:
 
-### 🔐 Camada 1 — Segurança de Dados
+###  Camada 1 — Segurança de Dados
 
 * Autenticação com login e senha criptografada
 * Autenticação em dois fatores (2FA)
 * Reconhecimento biométrico (digital/face)
 * Armazenamento híbrido (Cloud + Servidor Local)
 
-### 🧠 Camada 2 — Filtro e Monitoramento
+### Camada 2 — Filtro e Monitoramento
 
 * Análise de conteúdo com IA (texto, imagem e vídeo)
 * Bloqueio de conteúdos impróprios
@@ -52,19 +52,19 @@ O sistema implementa:
 
 ---
 
-## 🏗️ Arquitetura do Sistema
+##  Arquitetura do Sistema
 
 O sistema segue uma arquitetura **cliente-servidor**, composta por:
 
-* 📱 Cliente (Mobile/Desktop)
-* 🔑 Camada de autenticação (2FA + biometria)
-* ⚙️ API Backend (regras de negócio)
-* ☁️ Banco de dados em nuvem
-* 🖥️ Servidor local (cache e redundância)
+*  Cliente (Mobile/Desktop)
+*  Camada de autenticação (2FA + biometria)
+*  API Backend (regras de negócio)
+*  Banco de dados em nuvem
+*  Servidor local (cache e redundância)
 
 ---
 
-## 🧪 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 ### Backend
 
@@ -91,7 +91,7 @@ O sistema segue uma arquitetura **cliente-servidor**, composta por:
 
 ---
 
-## 🚀 Como Executar o Projeto
+##  Como Executar o Projeto
 
 ```bash
 # Clonar o repositório
@@ -108,13 +108,13 @@ npm start
 ```
 
 Servidor disponível em:
-👉 http://localhost:3000
+ http://localhost:3000
 
 ---
 
-## 📡 Endpoints da API
+##  Endpoints da API
 
-### 🔐 Login
+###  Login
 
 ```
 POST /auth/login
@@ -131,7 +131,7 @@ Exemplo:
 
 ---
 
-### 🧠 Análise de Conteúdo
+###  Análise de Conteúdo
 
 ```
 POST /content/analyze
@@ -156,7 +156,7 @@ Resposta:
 
 ---
 
-## 📊 Resultados Esperados
+##  Resultados Esperados
 
 * Redução de riscos de invasão
 * Proteção de dados sensíveis
@@ -166,7 +166,7 @@ Resposta:
 
 ---
 
-## 🔮 Melhorias Futuras
+##  Melhorias Futuras
 
 * Integração com IA real (Machine Learning)
 * Reconhecimento facial via câmera
@@ -176,13 +176,13 @@ Resposta:
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 **Davi Thomas Ribeiro e Silva**
 CEUB – Engenharia da Computação
 
 ---
 
-## 📄 Licença
+##  Licença
 
 Este projeto é acadêmico e possui fins educacionais.
